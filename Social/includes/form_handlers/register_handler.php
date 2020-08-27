@@ -109,9 +109,9 @@ if(strlen($fname) > 25 || strlen($fname) <2) {
 		$rand = rand(1, 2); //Random number between 1 and 2
 
 		if($rand == 1)
-		$profile_pic = "Assets/images/profile_pic/Defaults/1.png";
+		$profile_pic = "Assets/Images/profile_pic/Defaults/1.png";
 	else if($rand == 2)
-		$profile_pic = "Assets/images/profile_pic/Defaults/2.jpg";
+		$profile_pic = "Assets/Images/profile_pic/Defaults/2.jpg";
 
 	$query = mysqli_query($con, "INSERT INTO users VALUES (NULL, '$fname', '$lname', '$username', '$em', '$password', '$date', '$profile_pic', '0', '0', 'no', ',')");
 
