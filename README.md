@@ -1,2 +1,2 @@
 # Social-Media
-IWP Project
+Internet and Web Programming Project
