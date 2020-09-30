@@ -78,6 +78,7 @@ nav a:hover {
 	border-radius: 5px;
 	box-shadow: 2px 2px 1px #D3D3D3;
 	z-index: -1;
+	color: #555;
 }
 
 .user_details {
@@ -102,7 +103,7 @@ nav a:hover {
 	float:right;
 	width: 70%;
 	z-index: -1;
-	min-height: 160px;
+	min-height: 170px;
 }
 
 .post_form {
@@ -147,6 +148,7 @@ textarea:focus {
 	font-size: 15px;
 	padding: 0px 5px;
 	min-height: 75px;
+	cursor:pointer;
 }
 
 .post_profile_pic {
@@ -159,7 +161,7 @@ textarea:focus {
 }
 
 #comment_iframe {
-	max-height: 250px;
+	max-height: 250px;	
 	width: 100%;
 	margin-top: 5px;
 }
@@ -182,9 +184,8 @@ textarea:focus {
 	font-size: 14px;
 	margin: 3px 3px 3px 5px;
 }
-
 #comment_form input[type="submit"] {
-	border: none;
+	border:none;
 	background-color: #20AAE5;
 	color: #156588;
 	border-radius: 5px;
@@ -198,9 +199,9 @@ textarea:focus {
 
 .newsfeedPostOptions {
 	padding: 0px;
-	text-decoration: no;
-	color: #20AAE5;
-	border: none;
+	text-decoration: none;
+	color:#20AAE5;
+	border:none;
 }
 
 .newsfeedPostOptions iframe {
@@ -208,8 +209,6 @@ textarea:focus {
 	height: 17px;
 	width: 120px;
 }
-
-
 
 .comment_like {
 	background-color: transparent;
@@ -264,23 +263,18 @@ textarea:focus {
 .danger {
 	background-color: #e74c3c;
 }
-
 .warning {
 	background-color: #f0ad4e;
 }
-
 .default {
 	background-color: #bdc3c7;
 }
-
 .success {
 	background-color: #2ecc71;
 }
-
 .info {
 	background-color: #3498db;
 }
-
 .deep_blue {
 	background-color: #0043f0;
 }
@@ -303,7 +297,6 @@ textarea:focus {
 	color: #fff;
 	background-color: #2ecc71;
 }
-
 #ignore_button {
 	width: 20%;
 	height: 28px;
@@ -329,30 +322,33 @@ textarea:focus {
 	float: left;
 	width: 70%;
 	z-index: -1;
+
 }
 
-.profile_info_button {
+.profile_info_bottom {
 	margin: 10 0 0 7px;
+
 }
 
 #message_textarea {
 	width: 80%;
 	margin-right: 8px;
+	border-radius: 5px;
+	border: 1px solid #D3D3D3;
+	font-size: 12px;
 }
-
 #message_submit {
 	height: 41px;
 	width: 120px;
 	margin: 0;
 	position: absolute;
-	border: none;
+	border:none;
 	background-color: #20AAE5;
 	color: #156588;
 	border-radius: 5px;
 	font-family: 'Bellota-BoldItalic', sans-serif;
 	text-shadow: #73B6E2 0.5px 0.5px 0px;
 }
-
 .message {
 	border: 1px solid #000;
 	border-radius: 5px;
@@ -367,7 +363,6 @@ textarea:focus {
 	float: right;
 	margin-bottom: 5px;
 }
-
 .message#green {
 	background-color: #2ecc71;
 	border-color: #27ae60;
@@ -405,3 +400,209 @@ textarea:focus {
 #grey {
 	color: #8C8C8C;
 }
+
+.resultDisplay {
+	padding: 5px 5px 0 5px;
+	height: 70px;
+	border-bottom: 1px solid #D3D3D3;
+}
+.resultDisplay a {
+	float: none;
+}
+.resultDisplay:hover {
+	background-color: #EBEBEB;
+	text-decoration: none;
+}
+.liveSearchProfilePic img {
+	height: 50px;
+	border-radius: 25px;
+	margin: 1px 12px 0 2px;
+	float: left;
+}
+
+.liveSearchText {
+	background-color: transparent;
+	color: #1E96CA;
+}
+
+.liveSearchText p{
+	margin-left: 10px;
+	font-size: 12px;
+}
+
+.tab-content {
+	margin-top: 25px;
+}
+
+.dropdown_data_window {
+    background-color: #fff;
+    border: 1px solid #DADADA;
+    border-radius: 0 0 8px 8px;
+    border-top: none;
+    width: 300px;
+    position: absolute;
+    right: 10px;
+    top: 40px;
+    overflow: scroll;
+}
+
+.notification_badge {
+	padding: 3px 7px;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 1;
+	color: #fff;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	background-color: #F00;
+	border-radius: 10px;
+	position: absolute;
+	left: 8px;
+	top: -5px;
+}
+
+.resultDisplayNotification {
+	height: auto;
+    color: #1485BD;
+    padding-bottom: 7px;
+}
+
+.resultDisplayNotification img {
+    height: 40px;
+    border-radius: 5px;
+    margin: 1px 12px 0px 2px;
+    float: left;
+}
+
+.timestamp_smaller {
+	font-size: 85%;
+	margin: 0;
+}
+
+.search {
+	margin: 8px 0 0 15%;
+}
+
+.search #search_text_input {
+	border: thin solid #E5E5E5;
+  	float: left;
+  	height: 23px;
+  	outline: 0;
+  	width: 100px;
+  	border-top-right-radius: 0;
+  	border-bottom-right-radius: 0;
+  	border-top-left-radius: 3px;
+  	border-bottom-left-radius: 3px;
+}
+
+.button_holder {
+	background-color: #F1F1F1;
+  	border: thin solid #e5e5e5;
+  	cursor: pointer;
+  	float: left;
+  	height: 23px;
+  	text-align: center;
+  	width: 50px;
+  	border-top-right-radius: 3px;
+  	border-bottom-right-radius: 3px;
+}
+
+.button_holder img {
+	margin-top: 1px;
+    width: 20px;
+}
+
+.search_results {
+	background-color: #fff;
+    border: 1px solid #DADADA;
+    border-bottom: none;
+    border-top: none;
+    margin-top: 21px;
+}
+
+.search_results_footer{
+	padding: 7px 4px 0px 4px;
+    height: 30px;
+    border: 1px solid #DADADA;
+    border-top: none;
+    background-color: #20AAE5;
+    text-align: center;
+}
+
+.search_results_footer a {
+	color: #fff;
+}
+
+.search_result {
+	padding: 10px;
+    height: 100px;
+}
+
+.searchPageFriendButtons {
+	float: right;
+}
+
+.searchPageFriendButtons input[type="submit"] {
+	border: none;
+    padding: 7px 12px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.result_profile_pic {
+	float: left;
+    margin-right: 10px;
+}
+
+#search_hr {
+	margin-bottom: 0px;
+}
+
+.small_profile_pic {
+	height: 55px;
+    margin: 1px 12px 0 2px;
+    float: left;
+}
+
+#settings_input {
+	border: 1px solid #ccc;
+    height: 20px;
+    padding: 4px 6px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.settings_submit {
+	border: none;
+    padding: 7px 12px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+
+.message .deleteButton {
+   color: #fff;
+   margin: 0 5px 5px 0;
+   cursor: pointer;
+}
+
+.postedImage img {
+	max-height: 300px;
+    max-width: 100%;
+    display: block;
+    margin: 5px auto;
+}
+
+img.profilePicSmall {
+	height: 40px;
+	width: 40px;
+	border-radius: 25px;
+	margin: 5px; 
+}
+
+
+
+
